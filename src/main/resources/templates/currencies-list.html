@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Currencies list</title>
+</head>
+<body>
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>Currency code</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="currency : ${currencies}">
+            <td th:text="${currency.curCode}"/>
+            <td th:text="${currency.description}"/>
+            <td>
+<!--                <a th:href="@{'/ExchangeRate/' + ${currency.curCode}}" th:text="Check exchange rate"/>-->
+                <a th:href="@{'/ExchangeRate/' + ${currency.curCode}}" th:text="Check"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

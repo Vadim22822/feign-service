@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Gif</title>
+</head>
+<body>
+<a th:href="@{'/CurrenciesList'}" th:text="Back"/>
+<h3 th:text="${currency}"/>
+<h3 th:text="${comparedCurrency}"/>
+<h3 th:text="${previousDayCurrencyRate}"/>
+<h3 th:text="${currentDayCurrencyRate}"/>
+<iframe th:attr="src=${embebUrl}"></iframe>
+<h2 th:text="${embebUrl}"/>
+</body>
+</html>
