@@ -4,6 +4,5 @@ public interface RateRequestParameters {
 
     String getAppId();
     String getBase();
-    String getComparedCurrency();
 
 }

@@ -13,7 +13,5 @@ public class RateRequestParametersImpl implements RateRequestParameters {
     private String appId;
     @Value("${openexchangerates.base}")
     private String base;
-    @Value("${openexchangerates.comparedCurrency}")
-    private String comparedCurrency;
 
 }

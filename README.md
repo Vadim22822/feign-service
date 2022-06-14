@@ -28,5 +28,5 @@ Nice to Have
 После запуска сервиса, в браузере в адресной строке пишем:  
 для просмотра валют http://localhost:8080/CurrenciesList    
 для просмотра гифки, нажимаем на гиперссылку "Check" в строке с валютой,   
-или пишем в адресной строке http://localhost:8080/exchangeRate/{curCode}
-где curCode - код валюты
+или пишем в адресной строке http://localhost:8080/ExchangeRate/{curCode}
+где curCode - код валюты, например, http://localhost:8080/ExchangeRate/rub
