@@ -2,12 +2,10 @@ package com.feignService.DisplayedData.services;
 
 import com.feignService.FeignClients.ExchangeRateClient;
 import com.feignService.RequestParameters.RateRequestParameters;
-import com.feignService.Responses.ExchangeRateResponses.Currency;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.feignService.Responses.ExchangeRateResponses.ExchangeRateResponse;
 
-import java.util.List;
 import java.util.Map;
 
 @Service

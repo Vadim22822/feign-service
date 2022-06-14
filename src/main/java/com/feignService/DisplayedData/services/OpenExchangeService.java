@@ -1,9 +1,7 @@
 package com.feignService.DisplayedData.services;
 
-import com.feignService.Responses.ExchangeRateResponses.Currency;
 import com.feignService.Responses.ExchangeRateResponses.ExchangeRateResponse;
 
-import java.util.List;
 import java.util.Map;
 
 public interface OpenExchangeService {
